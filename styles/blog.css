@@ -21,22 +21,20 @@
 /* banner style */
 }
 .banner{
-    text-align: center;
-    display: inline-block;
-}
-.banner-proflile{
-    width:850px;
-    
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1440px 652px;
+    background-position: center;
 }
 .banner{
-    display: flex;
-    justify-content: space-between;
-    margin:26px 220px 32px 222px ;
+    text-align: center;
+    display: inline-block;
 }
 .header{
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 main section h3{
     font-size: 32px;
@@ -50,6 +48,7 @@ main section h3{
 .secondary-bg{
     background-color: rgb(241, 237, 227);
     text-align: center;
+ 
 }
 main div{
     max-width: 1140px;
@@ -81,4 +80,35 @@ table {
 #suggest{
     border-radius: 0px;
     border-width: 548 px;
+    }
+ 
+      .sp{
+        background-image: url(../assets/handshake.jpg);
+        background-repeat: no-repeat;
+        background-size: 1500px 313px;
+        background-position: center;
+    }
+    #layer-1{
+        text-align: left;
+        color: rgb(22, 197, 197);
+    }
+    main div{
+        text-align:right;
+   margin-left: 1300px;
+    }
+    main section{
+        text-align: left;
+    }
+    div ul{
+        display: flex;
+    }
+    div ul li{
+        list-style: none;
+    }
+    #flex{
+        display: flex;
+        align-items: ;
+    }
+    div table th{
+        border: 1px;
     }
