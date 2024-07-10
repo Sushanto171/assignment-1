@@ -18,6 +18,7 @@
     border-radius: 5px;
     font-size: 48;
     font-weight: bolder;
+    text-decoration: none;
 /* banner style */
 }
 .banner{
@@ -95,7 +96,7 @@ table {
     main div{
         text-align:right;
    margin-left: 1300px;
-    }
+    }s
     main section{
         text-align: left;
     }
@@ -111,4 +112,7 @@ table {
     }
     div table th{
         border: 1px;
+    }
+    footer div small{
+        font-size: 13px;
     }
