@@ -1,10 +1,11 @@
 
-.azeret-mono-normal bnnaer-content{
+.azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 800 px
-  fon style: 28px;;
-/* nav */
+  font-weight: 800 px;
+  font-size: 48px; 
+  display:inline-block ;
+  /* nav */
 }
 .text-primary{
     color: chocolate;
@@ -24,8 +25,8 @@
     display: inline-block;
 }
 .banner-proflile{
-    width:1440px;
-    height: 652px;
+    width:850px;
+    
 }
 .banner{
     display: flex;
@@ -37,3 +38,47 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+main section h3{
+    font-size: 32px;
+    font-weight: bolder;
+    color:#0D1321
+}
+.section-drescription{
+    font-size: 16px;
+    color:#0D1321
+}
+.secondary-bg{
+    background-color: rgb(241, 237, 227);
+    text-align: center;
+}
+main div{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+main section p{
+    font-size: 16px;
+}
+div{
+    text-align: center;
+  
+}
+div p{
+    font-size: 16px;
+}
+*{
+    margin: 10px;
+}
+table {
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 16px;
+}
+#suggest{
+    border-radius: 0px;
+    border-width: 548 px;
+    }
