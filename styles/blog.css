@@ -169,7 +169,7 @@ nav li a{
 }
 /* I need support */
 #support-banner{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     max-width: 100%;
