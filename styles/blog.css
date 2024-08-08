@@ -2,117 +2,207 @@
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 800 px;
-  font-size: 48px; 
-  display:inline-block ;
+  font-weight: 400;
+  font-size: 16px; 
+}
+/* shared style */
+*{margin: 0;
+    padding: 0;
+}
+.text-align{
+    text-align: center;
+}
+.title{
+    font-size:32px;
+    font-weight: 900;
+    padding: 15px;
+}
+.title-2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.margin{
+    margin:57px 120px ;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
   /* nav */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 150px;
+  }
+nav h1{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgba(13, 19, 33, 1);
 }
 .text-primary{
     color: chocolate;
 }
-.btn-primary{
-    background-color: black;
-    color: whitesmoke;
-    font-weight: bold;
-    padding: 10px 12px ;
-    border-radius: 5px;
-    font-size: 48;
-    font-weight: bolder;
-    text-decoration: none;
-/* banner style */
+
+nav ul li{
+    list-style: none;
 }
+nav li a{
+    text-decoration: none;
+    color: rgba(13, 19, 33, 1);
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgba(13, 19, 33, 1);
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+/* banner style */
+
 .banner{
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
-    background-size: 1440px 652px;
     background-position: center;
-}
-.banner{
+    padding: 30px 120px;
+    padding-bottom: 50px;
     text-align: center;
+}
+.banner-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    color:#0D1321
+}
+.banner-content a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0D1321;
+    padding:21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: block;
+    width: max-content;
+    text-align: center;
+    margin: 5px auto;
+}
+/* why web development section */
+#why-web{
+    background-color:rgba(13, 19, 33, 0.02);
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+.title-section{
+    padding: 40px 145px;
+}
+.why-flex{
+   margin: 15px 60px;
+   padding:20px 20px;
+   background-image: linear-gradient(90deg, #ffffff, #8a8c9000);
+}
+.display-flex:nth-child(3){
+    background-image: linear-gradient(90deg, #ffffff00, rgb(255, 255, 255));
+}
+.why-flex a{
+    text-decoration: none;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #0D1321;
+    padding: 8px 15px;
+    display: block;
+    width: max-content;
+    margin: 20px  0 ;
+}
+/* my inspiration section */
+#ins-video{
+    padding: 15px;
+    width: 100%;
+    border: 1px solid rgba(58, 56, 56, 0.447);
+    border-radius: 8px;
+    margin: 30px 0;
+}
+#ins-video video{
+    max-width: 100%;
+    border-radius: 8px;
+}
+/* my current target */
+.card{
+    padding:40px;
+    border-radius: 16px;
+    margin: 30px 0;
+    text-align: left;
+}
+#card-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+#card-2{
+    background-color:rgba(0, 76, 232, 0.05) ;
+}
+#card-3{
+    background-color:rgba(255, 223, 0, 0.05);
+}
+.card h5{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.card a{
+    color: #0D1321;
+    font-weight: 700;
+    margin-top: 20px;
     display: inline-block;
 }
-.header{
-    background-image: url('../assets/Hero-bg.png');
-    background-repeat: no-repeat;
+/* my next target */
+.next-card{
+    padding:40px;
+    border: 1px solid #0d1321c3;
+    border-radius: 16px;
+    margin: 12px 0;
+}
+.next-card a{
+    color: #0D1321;
+    font-weight: 700;
+    margin-top: 20px;
+    display: inline-block;
+}
+/* I need support */
+#support-banner{
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
     background-position: center;
-    background-size: 100%;
+    max-width: 100%;
+    border-radius: 16px;
+    padding: 40px 48px ;
 }
-main section h3{
+.support-text{
+    color: #fff;
+}
+.support-text h4{
     font-size: 32px;
-    font-weight: bolder;
-    color:#0D1321
+    font-weight: 800;
 }
-.section-drescription{
-    font-size: 16px;
-    color:#0D1321
-}
-.secondary-bg{
-    background-color: rgb(241, 237, 227);
-    text-align: center;
- 
-}
-main div{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-main section h5{
-    font-size: 24px;
-    font-weight: bold;
-}
-main section p{
-    font-size: 16px;
-}
-div{
-    text-align: center;
-  
-}
-div p{
-    font-size: 16px;
-}
-*{
-    margin: 10px;
-}
-table {
-    max-width: 1140px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 16px;
-}
-#suggest{
-    border-radius: 0px;
-    border-width: 548 px;
-    }
- 
-      .sp{
-        background-image: url(../assets/handshake.jpg);
-        background-repeat: no-repeat;
-        background-size: 1500px 313px;
-        background-position: center;
-    }
-    #layer-1{
-        text-align: left;
-        color: rgb(22, 197, 197);
-    }
-    main div{
-        text-align:right;
-   margin-left: 1300px;
-    }s
-    main section{
-        text-align: left;
-    }
-    div ul{
-        display: flex;
-    }
-    div ul li{
-        list-style: none;
-    }
-    #flex{
-        display: flex;
-        align-items: ;
-    }
-    div table th{
-        border: 1px;
-    }
-    footer div small{
-        font-size: 13px;
-    }
+ .support-text input{
+    width: 448px;
+    border-radius: 8px;
+    padding: 10px;
+    color: #ffffff;
+    border: 0;
+    margin-top: 20px;
+ }
+ .support-text a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 0;
+ }
+ /* footer section */
+ footer{
+    padding: 20px 120px;
+    background-color:rgba(13, 19, 33, 0.03) ;
+ }
